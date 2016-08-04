@@ -126,15 +126,33 @@
         </div>
         <div class="col-md-4 col-md-offset-2 contact-form">
           <h3 id="contact-form-title">Let's make something awesome.</h3>
-          <a id="foxyform_embed_link_802894" href="http://www.foxyform.com/"></a>
-          <script type="text/javascript">
-          (function(d, t){
-             var g = d.createElement(t),
-                 s = d.getElementsByTagName(t)[0];
-             g.src = "http://www.foxyform.com/js.php?id=802894&sec_hash=5958a6f45c5&width=350px";
-             s.parentNode.insertBefore(g, s);
-          }(document, "script"));
-          </script>
+          <div class="row contact-form">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div><!-- col -->
+              </div><!-- form-group -->
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="your@email.com">
+                </div><!-- col -->
+              </div><!-- form-group -->
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="6"></textarea>
+                </div><!-- col -->
+              </div><!-- form-group -->
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-info">Connect</button>
+                </div><!-- col -->
+              </div><!-- form-group -->
+            </form>
+          </div>
         </div>
       </div>
     </div>
